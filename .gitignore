@@ -1,0 +1,15 @@
+# Local research, source clones, downloads, and working references
+/references/
+
+# Dependencies and generated VitePress output
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# Local settings and credentials
+.DS_Store
+.env
+.env.*
+!.env.example
+*.local
+*.log
